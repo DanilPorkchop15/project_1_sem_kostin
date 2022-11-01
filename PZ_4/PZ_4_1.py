@@ -1,14 +1,21 @@
-n = int(input("Введите число: "))
-digit = 1
-result = 0
-i = 0
-while n >= i:
-    digit += 0.1
-    while i+1 % 2 != 0:
-        result += digit
-        break
-    while i+1 % 2 == 0:
-        result -= digit
-        break
-    i += 1
-print(result)
+# вариант 12
+# дано целое число N (>0). Найти значение выражения 1.1 - 1.2 + 1.3 - ...
+# (N слагаемых, знаки чередуются).
+# условный оператор не используется
+try:  # обработчик исключений
+    n = int(input("Введите целое число: "))
+    digit = 1
+    result = 0
+    i = 0  # счетчик нужный для выяснения четности/нечетности итерации
+    while n > i: 
+        digit += 0.1
+        while i % 2 == 0:  # while вместо if, прибавление при нечетности итерации (с 0)
+            result += digit
+            break
+        while i % 2 != 0:  # вычитание при четности итерации
+            result -= digit
+            break
+        i += 1
+    print(round(result))
+except ValueError:  # обработка исключения ValueErrror
+    print('Ошибка при вводе значения')
