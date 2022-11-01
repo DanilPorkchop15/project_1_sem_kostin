@@ -1,11 +1,13 @@
-def summ(a):
+# вариант 12
+# составить функцию суммирования числового ряда
+def summ(a):  # функция, выводящая сумму числового ряда
     print(sum(a))
 
 
 while True:
-    try:
-        nums = map(int, input().split())
-        summ(nums)
-        break
-    except Exception as ex:
+    try: # обработчик исключений
+        nums = map(int, input().split())  # ввод числового ряда через пробел
+        summ(nums)  # вызов функции 
+        break  # выход из цикла по корректному завершению
+    except Exception as ex:  # обработка исключений с выводом текста ошибки
         print(ex)
