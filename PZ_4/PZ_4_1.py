@@ -3,19 +3,23 @@
 # (N слагаемых, знаки чередуются).
 # условный оператор не используется
 try:  # обработчик исключений
-    n = int(input("Введите целое число: "))
+    n = int(input("Введите целое число (>0): "))
     digit = 1
     result = 0
     i = 0  # счетчик нужный для выяснения четности/нечетности итерации
-    while n > i: 
-        digit += 0.1
-        while i % 2 == 0:  # while вместо if, прибавление при нечетности итерации (с 0)
-            result += digit
-            break
-        while i % 2 != 0:  # вычитание при четности итерации
-            result -= digit
-            break
-        i += 1
-    print(round(result))
+    while n > 0:
+        while n > i:
+            digit += 0.1
+            while i % 2 == 0:  # while вместо if, прибавление при нечетности итерации (с 0)
+                result += digit
+                break
+            while i % 2 != 0:  # вычитание при четности итерации
+                result -= digit
+                break
+            i += 1
+        print(round(result, 2))  # округление для ответа без лишних знаков
+        break
+    while n <= 0:
+        print('Число должно быть больше 0')
 except ValueError:  # обработка исключения ValueErrror
     print('Ошибка при вводе значения')
