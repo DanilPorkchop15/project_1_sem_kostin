@@ -4,10 +4,8 @@ def summ(a):  # функция, выводящая сумму числового
     print(sum(a))
 
 
-while True:
-    try: # обработчик исключений
-        nums = map(int, input().split())  # ввод числового ряда через пробел
-        summ(nums)  # вызов функции 
-        break  # выход из цикла по корректному завершению
-    except Exception as ex:  # обработка исключений с выводом текста ошибки
-        print(ex)
+try: # обработчик исключений
+    nums = map(int, input().split())  # ввод числового ряда через пробел
+    summ(nums)  # вызов функции 
+except Exception as ex:  # обработка исключений с выводом текста ошибки
+    print(ex)
