@@ -8,4 +8,4 @@ try:
     nums = map(int, input('Введите ряд чисел через пробел: ').split())
     print(summ(nums))
 except Exception as ex:
-    print(ex)
+    print('Произошло исключение: ', ex)
