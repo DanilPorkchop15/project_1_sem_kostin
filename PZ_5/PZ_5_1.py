@@ -11,7 +11,7 @@ def summ(a):
 
 while True:
     try:
-        nums = int(input('Введите ряд чисел через пробел: '))  # ввод длины числового ряда
+        nums = int(input('Введите длину числового ряда: '))  # ввод длины числового ряда
         print(summ(nums))
         break
     except Exception as ex:
