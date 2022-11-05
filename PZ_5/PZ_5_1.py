@@ -9,8 +9,10 @@ def summ(a):
     return summa
 
 
-try:
-    nums = list(map(int, input('Введите ряд чисел через пробел: ').split()))  # ввод чисел через пробел в список
-    print(summ(nums))
-except Exception as ex:
-    print('Произошло исключение: ', ex)
+while True:
+    try:
+        nums = list(map(int, input('Введите ряд чисел через пробел: ').split()))  # ввод чисел через пробел в список
+        print(summ(nums))
+        break
+    except Exception as ex:
+        print('Произошло исключение: ', ex)
