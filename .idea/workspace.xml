@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 6 creation">
+    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 6 code finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_6/PZ_6_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_6/PZ_6_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PZ_6/PZ_6_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_6/PZ_6_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PZ_6/PZ_6_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_6/PZ_6_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,27 +55,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.PZ_6_3">
-    <configuration name="PZ_4_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proj_1sem_Kostin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_4/PZ_4_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="PZ_4_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Kostin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +89,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_5/PZ_5_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PZ_6_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Kostin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_6/PZ_6_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,9 +164,9 @@
       <list>
         <item itemvalue="Python.PZ_6_3" />
         <item itemvalue="Python.PZ_6_2" />
+        <item itemvalue="Python.PZ_6_1" />
         <item itemvalue="Python.PZ_5_1" />
         <item itemvalue="Python.PZ_4_2" />
-        <item itemvalue="Python.PZ_4_1" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667654102625</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pz 6 code finished">
+      <created>1668268478531</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668268478531</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +296,7 @@
     <MESSAGE value="5.2 код добавлен" />
     <MESSAGE value="pz 5 huuuge update (minor changes + report)" />
     <MESSAGE value="pz 6 creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="pz 6 creation" />
+    <MESSAGE value="pz 6 code finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="pz 6 code finished" />
   </component>
 </project>
