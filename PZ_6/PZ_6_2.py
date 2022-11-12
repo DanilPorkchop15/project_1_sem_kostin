@@ -17,6 +17,6 @@ try:
             if (listA[i - 1] + listA[i]) > SumMax:
                 k = i
                 SumMax = listA[i - 1] + listA[i]
-        print(f'Соседние числа с наибольшей суммой: {listA[k - 1]}, {listA[k]}')
+        print(f'Соседние числа с наибольшей суммой: {listA[k - 1]} и {listA[k]}')
 except Exception as ex:
     print('Произошла ошибка: ', ex)
