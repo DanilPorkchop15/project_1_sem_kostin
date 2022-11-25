@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 6.1 немного изменил">
-      <change afterPath="$PROJECT_DIR$/PZ_7/PZ_7_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_7/PZ_7_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_7/__init__.py" afterDir="false" />
+    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 7 sozdal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_7/PZ_7_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_7/PZ_7_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="33b58874-9777-4d9a-912c-ac65520525ba" />
+    <option name="defaultAccountId" value="868c20a0-91d7-4654-a03f-04955d962d13" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -292,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668269981030</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="pz 7 sozdal">
+      <created>1668864206535</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668864206535</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +343,7 @@
     <MESSAGE value="pz 6 code finished" />
     <MESSAGE value="pz 6 отчет" />
     <MESSAGE value="pz 6.1 немного изменил" />
-    <option name="LAST_COMMIT_MESSAGE" value="pz 6.1 немного изменил" />
+    <MESSAGE value="pz 7 sozdal" />
+    <option name="LAST_COMMIT_MESSAGE" value="pz 7 sozdal" />
   </component>
 </project>
