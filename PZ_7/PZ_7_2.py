@@ -8,4 +8,7 @@ print(s)
 marks = '''\@"()_+-/=.,'[]{};:%#<>~`*|№?!'''
 for i in marks:
     s = s.replace(i, ' ')
-print('Самое короткое слово в введенном предложении: ', min(s.split()[::-1], key=len))
+try:
+    print('Самое короткое слово в введенном предложении: ', min(s.split()[::-1], key=len))
+except ValueError:
+    print('Строка должна быть непустой')

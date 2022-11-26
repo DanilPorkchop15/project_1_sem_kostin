@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 7.2">
+    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_7/PZ_7_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_7/PZ_7_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_7/PZ_7_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_7/PZ_7_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/student/Документы/PycharmProjects/IS-24/Proj_1sem_Skupkov&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/student/Документы/PycharmProjects/IS-23/Proj_1sem_Kostin/reports&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
@@ -303,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669374204227</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pz 7 отчет">
+      <created>1669375123765</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669375123765</updated>
+    </task>
+    <task id="LOCAL-00020" summary="pz 7">
+      <created>1669461116097</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669461116097</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,6 +367,8 @@
     <MESSAGE value="pz 6.1 немного изменил" />
     <MESSAGE value="pz 7 sozdal" />
     <MESSAGE value="pz 7.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="pz 7.2" />
+    <MESSAGE value="pz 7 отчет" />
+    <MESSAGE value="pz 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="pz 7" />
   </component>
 </project>
