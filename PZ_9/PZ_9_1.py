@@ -5,7 +5,7 @@ dic = {"Hello": "Привет",
        "Father": "Отец",
        "Mother": "Мать",
        "Uncle": "Дядя",
-       "Aunt": "Тетч",
+       "Aunt": "Тетя",
        "Cat" : "Кот",
        "Dog" : "Собака"}
 for key, value in dic.items():
