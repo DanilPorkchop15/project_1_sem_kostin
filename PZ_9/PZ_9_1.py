@@ -8,7 +8,7 @@ dic = {"Hello": "Привет",
        "Mother": "Мать",
        "Uncle": "Дядя",
        "Aunt": "Тетя",
-       "Cat" : "Кот",
+       "Cat": "Кот",
        "Dog": "Собака"}
 # Вывод содержимаго словаря
 for key, value in dic.items():
