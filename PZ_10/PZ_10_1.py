@@ -1,4 +1,11 @@
 # вариант 12
+# В магазинах имеются следующие товары. Магнит – молоко, соль, сахар, печенье, сыр.
+# Пятерочка – мясо, молоко, сыр. Перекресток – молоко, творог, сыр, сахар, печенье. Лента
+# – печенье, молоко, сыр, сметана.
+# Определить:
+# 1. в каких магазинах нельзя приобрести сметану.
+# 2. какие товары из магазина Магнит отсутствуют в магазине Перекресток.
+# 3. какие товары из магазина Лента отсутствуют в магазине Магнит.
 
 magnit = {"молоко", "соль", "сахар", "печенье", "сыр"}
 pyaterochka = {"мясо", "молоко", "сыр"}
@@ -18,15 +25,9 @@ if "сметана" not in lenta:
 print("сметаны нет в магазинах: ", *noSmetanaShops)
 
 # задание 2
-notInPerekrestok = set()
-for i in magnit:
-    if i not in perekrestok:
-        notInPerekrestok.add(i)
+notInPerekrestok = magnit - perekrestok
 print("в перекрестке нет товаров из магнита:", *notInPerekrestok)
 
 # задание 3
-notInMagnit = set()
-for i in lenta:
-    if i not in magnit:
-        notInMagnit.add(i)
+notInMagnit = lenta - magnit
 print("в магните нет товаров из ленты:", *notInMagnit)
