@@ -11,3 +11,4 @@ for i in matrix:
     print(i)
 
 print('Длина списка отрицательных элементов', len(negative))
+print(f'Сам список: {negative}')

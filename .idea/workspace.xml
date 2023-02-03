@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 12 code and report">
-      <change afterPath="$PROJECT_DIR$/PZ_13/PZ_13_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_13/PZ_13_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_13/__init__.py" afterDir="false" />
+    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 13 code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PZ_13/PZ_13_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/PZ_13/PZ_13_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
       <recent name="$PROJECT_DIR$/reports" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PZ_13_1">
+  <component name="RunManager" selected="Python.PZ_13_2">
     <configuration name="PZ_11_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Kostin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PZ_13_1" />
         <item itemvalue="Python.PZ_13_2" />
+        <item itemvalue="Python.PZ_13_1" />
         <item itemvalue="Python.PZ_12_2" />
         <item itemvalue="Python.PZ_12_1" />
         <item itemvalue="Python.PZ_11_2" />
@@ -404,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674912436373</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="pz 13 code">
+      <created>1675435585110</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1675435585110</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,6 +465,7 @@
     <MESSAGE value="pz 11 code" />
     <MESSAGE value="pz 11 code and report" />
     <MESSAGE value="pz 12 code and report" />
-    <option name="LAST_COMMIT_MESSAGE" value="pz 12 code and report" />
+    <MESSAGE value="pz 13 code" />
+    <option name="LAST_COMMIT_MESSAGE" value="pz 13 code" />
   </component>
 </project>
