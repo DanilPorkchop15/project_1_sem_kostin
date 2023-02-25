@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 13 code abd report">
-      <change afterPath="$PROJECT_DIR$/PZ_14/PZ_14_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_14/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PZ_14/dates.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/regular/Задание с регулярными выражениями.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 14 code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -419,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675436050682</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="pz 14 code">
+      <created>1677326770843</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677326770843</updated>
+    </task>
+    <task id="LOCAL-00036" summary="pz 14 code">
+      <created>1677326787285</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677326787285</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="report 4 added" />
     <MESSAGE value="pz 2 comments" />
     <MESSAGE value="pz 3 comments/ minor changes" />
     <MESSAGE value="pz 4 comments/ minor changes/ major changes" />
@@ -476,6 +483,7 @@
     <MESSAGE value="pz 12 code and report" />
     <MESSAGE value="pz 13 code" />
     <MESSAGE value="pz 13 code abd report" />
-    <option name="LAST_COMMIT_MESSAGE" value="pz 13 code abd report" />
+    <MESSAGE value="pz 14 code" />
+    <option name="LAST_COMMIT_MESSAGE" value="pz 14 code" />
   </component>
 </project>
