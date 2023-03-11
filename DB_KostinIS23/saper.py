@@ -1,0 +1,18 @@
+import sqlite3 as sq
+from data_users import info_users
+with sq.connect('saper.db') as con:
+    cur = con.cursor()
+    #cur.execute("DROP TABLE IF EXISTS users")
+    cur.execute("""CREATE TABLE IF NOT EXISTS users (
+        user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT NOT NULL,
+        sex INTEGER NOT NULL DEFAULT 1,
+        old INTEGER,
+        score INTEGER
+        )""")
+    #cur.execute("INSERT INTO users VALUES (1, 'Алексей', 1, 22, 1000)")
+    #cur.execute("INSERT INTO users VALUES (2, 'Виктор', 1, 25, 1500)")
+    #cur.execute("INSERT INTO users VALUES (3, 'Надежда', 2, 19, 900)")
+    #cur.execute("INSERT INTO users VALUES (4, 'Александр', 1, 29, 3500)")
+    #cur.execute("INSERT INTO users VALUES (5, 'Данил', 1, 17, 9999)")
+    cur.executemany("INSERT INTO users VALUES (?, ?, ?, ?, ?)", info_users)
