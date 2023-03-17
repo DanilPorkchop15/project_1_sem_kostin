@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="pz 16 code">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2023,_15_04_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_25_02_2023__15_04__Changes_.xml" beforeDir="false" />
+    <list default="true" id="0ebf3cd0-1f0f-4b25-bf52-7fb1e5c5f9e7" name="Changes" comment="db ]">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB_KostinIS23/saper.py" beforeDir="false" afterPath="$PROJECT_DIR$/DB_KostinIS23/saper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="33b58874-9777-4d9a-912c-ac65520525ba" />
+    <option name="defaultAccountId" value="868c20a0-91d7-4654-a03f-04955d962d13" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -45,12 +44,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/student/Документы/PycharmProjects/IS-23/Proj_1sem_Kostin/reports&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/student/Документы/PycharmProjects/IS-23/Proj_1sem_Kostin&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/reports" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -60,28 +60,7 @@
       <recent name="$PROJECT_DIR$/PZ_16/modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="PZ_12_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Proj_1sem_Kostin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PZ_12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PZ_12/PZ_12_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.saper">
     <configuration name="PZ_13_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Proj_1sem_Kostin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,13 +145,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="saper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Proj_1sem_Kostin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DB_KostinIS23" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DB_KostinIS23/saper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.saper" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.PZ_14_1" />
         <item itemvalue="Python.PZ_13_2" />
         <item itemvalue="Python.PZ_13_1" />
-        <item itemvalue="Python.PZ_12_2" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677511494540</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="db ]">
+      <created>1678540978777</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1678540978777</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pz 4 comments/ minor changes/ major changes" />
     <MESSAGE value="cmt" />
     <MESSAGE value="comments simplified" />
     <MESSAGE value="5.1 major rework" />
@@ -536,6 +542,7 @@
     <MESSAGE value="pz 14 code" />
     <MESSAGE value="pz 14 code and report" />
     <MESSAGE value="pz 16 code" />
-    <option name="LAST_COMMIT_MESSAGE" value="pz 16 code" />
+    <MESSAGE value="db ]" />
+    <option name="LAST_COMMIT_MESSAGE" value="db ]" />
   </component>
 </project>
