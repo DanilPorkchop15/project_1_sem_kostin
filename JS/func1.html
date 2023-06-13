@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function newcolor(color)
+{
+alert("Вы выбрали " + color);
+document.bgColor=color;
+}
+</script>
+</head>
+<body>
+<p>Выбрать цвет фона</p>
+<form>
+<input type="button" value="голубой" onClick="newcolor('lightblue')">
+<input type="button" value="розовый" onClick="newcolor('pink')">
+<input type="button" value="вернуть" onClick="newcolor('white')">
+</form>
+</body>
+</html>

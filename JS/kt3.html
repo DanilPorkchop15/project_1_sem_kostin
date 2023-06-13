@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>КТ_3</title>
+  <script>
+  	function kt_3_1() {
+  var shape = document.getElementById('shape').value;
+  var color = document.getElementById('color').value;
+  var length = shape.length;
+
+  alert('Мне нравится ' + shape +  ', цвет '+ color + '\n' + ' длина фигуры = ' + length);
+}
+function kt_3_2() {
+  var shape = document.getElementById('shapeField').value;
+  var color = document.getElementById('colorField').value;
+  var length = shape.length;
+
+  alert('Мне нравится ' + shape + ', цвет ' + color + '\n' + ' длина фигуры = ' + length);
+}
+function kt_3_2_name() {
+        alert('Вводите имя внимательно');
+    }
+function kt_3_2_submit() {
+  var name = document.getElementById('name').value;
+  var iceCreamChecked = document.getElementById('iceCream').checked;
+  var chocolateChecked = document.getElementById('chocolate').checked;
+  if (iceCreamChecked && !chocolateChecked) {
+    alert('Вы выбрали: мороженое');
+  } else if (!iceCreamChecked && chocolateChecked) {
+    alert('Вы выбрали: шоколад');
+  } else if (iceCreamChecked && chocolateChecked) {
+    alert('Вы выбрали: мороженое и шоколад');
+  } else {
+    alert('Вы ничего не выбрали');
+  }
+  alert('Спасибо, что приняли участие в опросе, '+name+'!');
+    }
+  </script>
+</head>
+<body>
+  <form id="aform">
+    <label for="shapeField">Фи	гура:</label>
+    <input type="text" id="shape"><br>
+
+    <label for="colorField">Цвет:</label>
+    <input type="text" id="color"><br>
+
+    <button type="button" onclick="kt_3_1()">Показать сообщение</button>
+  </form><hr>	
+</body>
+</html>
+</body>
+</html>

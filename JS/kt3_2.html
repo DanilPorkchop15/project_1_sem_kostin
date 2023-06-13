@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>КТ_3_2</title>
+  <script>
+    function Mes() {
+        alert('Вводите имя внимательно');
+    }
+    function Submit() {
+      var name = document.getElementById('name').value;
+      var iceCreamChecked = document.getElementById('iceCream').checked;
+      var chocolateChecked = document.getElementById('chocolate').checked;
+      if (iceCreamChecked && !chocolateChecked) {
+        alert('Вы выбрали: мороженое');
+      } else if (!iceCreamChecked && chocolateChecked) {
+        alert('Вы выбрали: шоколад');
+      } else if (iceCreamChecked && chocolateChecked) {
+        alert('Вы выбрали: мороженое и шоколад');
+      } else {
+        alert('Вы ничего не выбрали');
+      }
+      alert('Спасибо, что приняли участие в опросе, '+name+'!');
+    }
+  </script>
+</head>
+<body>
+  <form>
+    <label>Введите имя:</label>
+    <input type="text" id="name" onclick="Mes()"><br>
+    <label>Мороженое:</label>
+    <input type="checkbox" id="iceCream"><br>
+    <label>Шоколад:</label>
+    <input type="checkbox" id="chocolate"><br>
+    <button type="button" onclick="Submit()">Отправить</button>
+  </form>
+</body>
+</html>   
